@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e5b6b66-6d14-4882-b06b-06a1e49f7793" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Data-Classification.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/pytorch_model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/best_model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ref/Classification/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/med/med.train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/med/med.val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/med/med.vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/gpu_test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Ref/gcn_imdb_sentence_classification.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2m41DMm2v4Ng1CgW4vtk29YJYu9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.gpu_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Works/PyCharm/Data-Classification/data/med&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Works\PyCharm\Data-Classification\data\med" />
+      <recent name="D:\Works\PyCharm\Data-Classification\Ref\Classification" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Works\PyCharm\Data-Classification\models\bert-base-chinese" />
+      <recent name="D:\Works\PyCharm\Data-Classification\tests" />
+      <recent name="D:\Works\PyCharm\Data-Classification\Ref" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="gpu_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Data-Classification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Works\PyCharm\Data-Classification\tests\gpu_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5e5b6b66-6d14-4882-b06b-06a1e49f7793" name="更改" comment="" />
+      <created>1726320913679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726320913679</updated>
+      <workItem from="1726320915011" duration="3292000" />
+      <workItem from="1726326888423" duration="2805000" />
+      <workItem from="1726330453724" duration="12686000" />
+      <workItem from="1726371849023" duration="7944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ref/Chinese_Text_Classification/Chinese_Text_Classification_Pytorch-main/train_eval.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ref/Chinese_Text_Classification/Chinese_Text_Classification_Pytorch-main/models/ERNIE.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Classification$predict.coverage" NAME="predict 覆盖结果" MODIFIED="1726366777032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Classification$gpu_test.coverage" NAME="gpu_test 覆盖结果" MODIFIED="1726385208448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Classification$main.coverage" NAME="gpu_test 覆盖结果" MODIFIED="1726332896075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Classification$train.coverage" NAME="train 覆盖结果" MODIFIED="1726388384164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

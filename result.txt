@@ -1,0 +1,987 @@
+C:\Users\GodKe\.conda\envs\Data-Classification\python.exe D:\Works\PyCharm\Data-Classification\train.py
+  0%|                                                                       | 0/126 [00:00<?, ?it/s]loading data from: ./data/med/med.train.txt
+100%|████████████████████████████████████████████████████████████| 126/126 [00:00<00:00, 245.74it/s]
+  0%|                                                                       | 0/126 [00:00<?, ?it/s]loading data from: ./data/med/med.val.txt
+100%|████████████████████████████████████████████████████████████| 126/126 [00:00<00:00, 247.24it/s]
+
+Epoch 1 train:   0%|                                                         | 0/32 [00:00<?, ?it/s]
+Epoch 1 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.84it/s, acc=0.5, loss=1.4]
+Epoch 1 valid:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Train ACC: 0.2578125 	Loss: 1.466508161276579
+Epoch 1 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.36it/s, acc=0, loss=1.92]
+	Loss: 1.4120948687195778
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.00      0.00      0.00        42
+       医保x医药       0.21      1.00      0.34        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.21       126
+   macro avg       0.05      0.25      0.09       126
+weighted avg       0.04      0.21      0.07       126
+
+Epoch 2 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.94it/s, acc=0, loss=1.59]
+	Train ACC: 0.2734375 	Loss: 1.3952131234109402
+Epoch 2 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.26it/s, acc=0, loss=2.03]
+	Loss: 1.3682537600398064
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+
+Epoch 3 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.94it/s, acc=0, loss=1.39]
+	Train ACC: 0.296875 	Loss: 1.3724127225577831
+Epoch 3 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.31it/s, acc=0, loss=1.77]
+
+Epoch 4 train:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Loss: 1.3933061733841896
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+Epoch 4 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=0, loss=1.71]
+	Train ACC: 0.28125 	Loss: 1.39385599270463
+Epoch 4 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.29it/s, acc=0, loss=2.28]
+	Loss: 1.3727785237133503
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.30      1.00      0.46        37
+       医疗x医保       1.00      0.05      0.09        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.31       126
+   macro avg       0.32      0.26      0.14       126
+weighted avg       0.42      0.31      0.17       126
+
+
+Epoch 5 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.93it/s, acc=0, loss=1.45]
+	Train ACC: 0.3203125 	Loss: 1.36615189909935
+Epoch 5 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.30it/s, acc=0, loss=1.48]
+
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.38      1.00      0.55        37
+       医疗x医保       0.86      0.57      0.69        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.48       126
+   macro avg       0.31      0.39      0.31       126
+weighted avg       0.40      0.48      0.39       126
+
+Epoch 6 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.94it/s, acc=0.5, loss=1.5]
+	Train ACC: 0.3125 	Loss: 1.386108499020338
+Epoch 6 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.32it/s, acc=0, loss=1.97]
+
+Epoch 7 train:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Loss: 1.3439357690513134
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.30      1.00      0.46        37
+       医疗x医保       1.00      0.07      0.13        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.32       126
+   macro avg       0.33      0.27      0.15       126
+weighted avg       0.42      0.32      0.18       126
+
+Epoch 7 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.94it/s, acc=0.5, loss=1.18]
+	Train ACC: 0.3203125 	Loss: 1.3515972010791302
+Epoch 7 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.26it/s, acc=0, loss=1.67]
+	Loss: 1.3304394371807575
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+
+Epoch 8 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.91it/s, acc=1, loss=1.11]
+Epoch 8 valid:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Train ACC: 0.359375 	Loss: 1.3454414494335651
+Epoch 8 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.26it/s, acc=0, loss=1.58]
+
+Epoch 9 train:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Loss: 1.3461054861545563
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.29      1.00      0.45        37
+       医疗x医保       0.00      0.00      0.00        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.29       126
+   macro avg       0.07      0.25      0.11       126
+weighted avg       0.09      0.29      0.13       126
+
+Epoch 9 train: 100%|██████████████████████████████| 32/32 [00:06<00:00,  4.92it/s, acc=0, loss=1.57]
+Epoch 9 valid:   0%|                                                         | 0/32 [00:00<?, ?it/s]	Train ACC: 0.3125 	Loss: 1.3871944397687912
+Epoch 9 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.35it/s, acc=0, loss=2.09]
+
+Epoch 10 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 1.3466599099338055
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+Epoch 10 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.92it/s, acc=0.5, loss=1.13]
+Epoch 10 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.34375 	Loss: 1.3505958914756775
+Epoch 10 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.16it/s, acc=0, loss=1.85]
+	Loss: 1.3222577925771475
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+
+Epoch 11 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=0, loss=1.31]
+Epoch 11 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.3359375 	Loss: 1.3327047266066074
+Epoch 11 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.10it/s, acc=0, loss=1.91]
+
+Epoch 12 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 1.3096039537340403
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+Epoch 12 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0, loss=1.63]
+Epoch 12 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.3046875 	Loss: 1.3703483752906322
+Epoch 12 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.19it/s, acc=0, loss=1.68]
+	Loss: 1.3297321982681751
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.39      1.00      0.56        42
+       医保x医药       0.74      0.54      0.62        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.44       126
+   macro avg       0.28      0.38      0.30       126
+weighted avg       0.28      0.44      0.32       126
+
+
+Epoch 13 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=1, loss=0.952]
+	Train ACC: 0.3671875 	Loss: 1.3703424762934446
+Epoch 13 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.13it/s, acc=0, loss=1.88]
+	Loss: 1.28259358368814
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+
+Epoch 14 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0, loss=1.36]
+	Train ACC: 0.3828125 	Loss: 1.3183904066681862
+Epoch 14 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.18it/s, acc=0, loss=1.69]
+
+Epoch 15 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 1.2634654846042395
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.35      1.00      0.52        42
+       医保x医药       0.86      0.23      0.36        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.38       126
+   macro avg       0.30      0.31      0.22       126
+weighted avg       0.29      0.38      0.25       126
+
+Epoch 15 train: 100%|████████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0, loss=2]
+	Train ACC: 0.4765625 	Loss: 1.2741536404937506
+Epoch 15 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.18it/s, acc=0, loss=2.28]
+	Loss: 1.3058073353022337
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.33      1.00      0.50        42
+       医保x医药       0.00      0.00      0.00        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.33       126
+   macro avg       0.08      0.25      0.12       126
+weighted avg       0.11      0.33      0.17       126
+
+
+Epoch 16 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0, loss=1.71]
+	Train ACC: 0.4296875 	Loss: 1.2798379696905613
+Epoch 16 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.17it/s, acc=0, loss=1.97]
+
+Epoch 17 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 1.1490898113697767
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.00      0.00      0.00        37
+       医疗x医保       0.40      1.00      0.57        42
+       医保x医药       0.76      0.62      0.68        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.46       126
+   macro avg       0.29      0.40      0.31       126
+weighted avg       0.29      0.46      0.33       126
+
+Epoch 17 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0.5, loss=0.812]
+Epoch 17 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.5703125 	Loss: 1.1175391282886267
+Epoch 17 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.12it/s, acc=0, loss=2.64]
+
+	Loss: 1.1193776428699493
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.35      0.52        37
+       医疗x医保       0.46      1.00      0.63        42
+       医保x医药       0.76      0.62      0.68        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.56       126
+   macro avg       0.55      0.49      0.46       126
+weighted avg       0.60      0.56      0.50       126
+
+Epoch 18 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0.5, loss=1.16]
+Epoch 18 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.515625 	Loss: 1.0724353939294815
+Epoch 18 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.15it/s, acc=0, loss=2.21]
+
+	Loss: 0.956173756159842
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.67      0.86      0.75        37
+       医疗x医保       0.66      0.74      0.70        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.00      0.00      0.00        21
+
+    accuracy                           0.67       126
+   macro avg       0.51      0.61      0.56       126
+weighted avg       0.56      0.67      0.61       126
+
+Epoch 19 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0.5, loss=0.911]
+Epoch 19 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.5390625 	Loss: 0.9946405831724405
+Epoch 19 valid: 100%|██████████████████████████████| 32/32 [00:01<00:00, 17.21it/s, acc=0, loss=2.6]
+	Loss: 1.116087568923831
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.38      1.00      0.55        37
+       医疗x医保       0.00      0.00      0.00        42
+       医保x医药       0.77      0.65      0.71        26
+         三联动       0.67      0.19      0.30        21
+
+    accuracy                           0.46       126
+   macro avg       0.45      0.46      0.39       126
+weighted avg       0.38      0.46      0.36       126
+
+
+Epoch 20 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=1, loss=0.482]
+	Train ACC: 0.578125 	Loss: 0.9710075594484806
+Epoch 20 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.10it/s, acc=0, loss=1.77]
+	Loss: 0.8865996096283197
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.22      0.36        37
+       医疗x医保       0.49      0.98      0.66        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.50      0.10      0.16        21
+
+    accuracy                           0.58       126
+   macro avg       0.68      0.53      0.49       126
+weighted avg       0.69      0.58      0.51       126
+
+Epoch 21 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0, loss=1.14]
+Epoch 21 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.53125 	Loss: 0.97180494107306
+Epoch 21 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.06it/s, acc=0.5, loss=1.59]
+	Loss: 0.8497636830434203
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.96      0.68      0.79        37
+       医疗x医保       0.63      0.90      0.75        42
+       医保x医药       0.70      0.88      0.78        26
+         三联动       0.43      0.14      0.21        21
+
+    accuracy                           0.71       126
+   macro avg       0.68      0.65      0.63       126
+weighted avg       0.71      0.71      0.68       126
+
+Epoch 22 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.85it/s, acc=0.5, loss=0.774]
+Epoch 22 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.6015625 	Loss: 0.9457623558118939
+Epoch 22 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.07it/s, acc=0, loss=1.89]
+	Loss: 0.8529578885063529
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.71      0.86      0.78        37
+       医疗x医保       0.70      0.76      0.73        42
+       医保x医药       0.69      0.85      0.76        26
+         三联动       0.33      0.05      0.08        21
+
+    accuracy                           0.69       126
+   macro avg       0.61      0.63      0.59       126
+weighted avg       0.64      0.69      0.64       126
+
+Epoch 23 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=1, loss=0.733]
+	Train ACC: 0.640625 	Loss: 0.8766740029677749
+Epoch 23 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.14it/s, acc=0.5, loss=1.2]
+Epoch 24 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.8555434057489038
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.93      0.73      0.82        37
+       医疗x医保       0.77      0.81      0.79        42
+       医保x医药       0.66      0.88      0.75        26
+         三联动       0.28      0.24      0.26        21
+
+    accuracy                           0.71       126
+   macro avg       0.66      0.67      0.65       126
+weighted avg       0.71      0.71      0.70       126
+
+Epoch 24 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0.5, loss=2.54]
+Epoch 24 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.5859375 	Loss: 0.9463161025196314
+Epoch 24 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.16it/s, acc=0.5, loss=1.77]
+	Loss: 0.8039202364161611
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.81      0.81      0.81        37
+       医疗x医保       0.70      0.88      0.78        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.60      0.14      0.23        21
+
+    accuracy                           0.73       126
+   macro avg       0.70      0.67      0.65       126
+weighted avg       0.72      0.73      0.70       126
+
+Epoch 25 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0, loss=1.48]
+Epoch 25 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.6171875 	Loss: 0.8576434049755335
+Epoch 25 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.06it/s, acc=0.5, loss=1.08]
+	Loss: 0.8718155175447464
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.62      0.77        37
+       医疗x医保       0.68      0.76      0.72        42
+       医保x医药       0.68      0.88      0.77        26
+         三联动       0.23      0.24      0.23        21
+
+    accuracy                           0.66       126
+   macro avg       0.65      0.63      0.62       126
+weighted avg       0.70      0.66      0.66       126
+
+Epoch 26 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.87it/s, acc=1, loss=0.241]
+	Train ACC: 0.703125 	Loss: 0.8089992171153426
+Epoch 26 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.10it/s, acc=0.5, loss=1.98]
+Epoch 27 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.7855549147352576
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.59      0.97      0.73        37
+       医疗x医保       0.86      0.57      0.69        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.50      0.14      0.22        21
+
+    accuracy                           0.67       126
+   macro avg       0.66      0.63      0.60       126
+weighted avg       0.69      0.67      0.64       126
+
+Epoch 27 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=1, loss=0.697]
+	Train ACC: 0.71875 	Loss: 0.8254369031637907
+Epoch 27 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.12it/s, acc=0, loss=2.21]
+	Loss: 0.7473585784900934
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.83      0.81      0.82        37
+       医疗x医保       0.67      0.93      0.78        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       1.00      0.05      0.09        21
+
+    accuracy                           0.73       126
+   macro avg       0.80      0.66      0.62       126
+weighted avg       0.78      0.73      0.68       126
+
+Epoch 28 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.87it/s, acc=0.5, loss=1.37]
+	Train ACC: 0.71875 	Loss: 0.7014879370108247
+Epoch 28 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 16.90it/s, acc=0.5, loss=1.79]
+	Loss: 0.6700786368455738
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.72      0.97      0.83        37
+       医疗x医保       0.80      0.76      0.78        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.60      0.14      0.23        21
+
+    accuracy                           0.74       126
+   macro avg       0.71      0.68      0.65       126
+weighted avg       0.72      0.74      0.70       126
+
+Epoch 29 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.86it/s, acc=0, loss=1.19]
+Epoch 29 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.671875 	Loss: 0.778055323753506
+Epoch 29 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.15it/s, acc=0.5, loss=1.39]
+	Loss: 0.6136579681187868
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.89      0.86      0.88        37
+       医疗x医保       0.80      0.95      0.87        42
+       医保x医药       0.68      0.88      0.77        26
+         三联动       0.83      0.24      0.37        21
+
+    accuracy                           0.79       126
+   macro avg       0.80      0.73      0.72       126
+weighted avg       0.81      0.79      0.77       126
+
+Epoch 30 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.86it/s, acc=0.5, loss=1.52]
+Epoch 30 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.6875 	Loss: 0.7316957749426365
+Epoch 30 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.03it/s, acc=0.5, loss=1.88]
+Epoch 31 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.768138479674235
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.60      1.00      0.75        37
+       医疗x医保       0.88      0.55      0.68        42
+       医保x医药       0.68      0.88      0.77        26
+         三联动       0.50      0.10      0.16        21
+
+    accuracy                           0.67       126
+   macro avg       0.66      0.63      0.59       126
+weighted avg       0.69      0.67      0.63       126
+
+Epoch 31 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.85it/s, acc=0.5, loss=1.37]
+	Train ACC: 0.7109375 	Loss: 0.6916626030579209
+Epoch 31 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.02it/s, acc=0.5, loss=1.1]
+	Loss: 0.5633923708228394
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.83      0.95      0.89        37
+       医疗x医保       0.84      0.88      0.86        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.78      0.33      0.47        21
+
+    accuracy                           0.80       126
+   macro avg       0.79      0.75      0.75       126
+weighted avg       0.80      0.80      0.78       126
+
+Epoch 32 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.87it/s, acc=1, loss=0.261]
+Epoch 32 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.7265625 	Loss: 0.6610252340324223
+Epoch 32 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.06it/s, acc=0.5, loss=1.09]
+Epoch 33 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.5747344305273145
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.91      0.78      0.84        37
+       医疗x医保       0.75      0.95      0.84        42
+       医保x医药       0.76      0.85      0.80        26
+         三联动       0.75      0.43      0.55        21
+
+    accuracy                           0.79       126
+   macro avg       0.79      0.75      0.76       126
+weighted avg       0.80      0.79      0.78       126
+
+Epoch 33 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.84it/s, acc=0, loss=2.89]
+Epoch 33 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.75 	Loss: 0.634429526515305
+Epoch 33 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.07it/s, acc=0.5, loss=1.01]
+	Loss: 0.5272562550962903
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.86      0.97      0.91        37
+       医疗x医保       0.88      0.88      0.88        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.64      0.33      0.44        21
+
+    accuracy                           0.81       126
+   macro avg       0.77      0.76      0.75       126
+weighted avg       0.80      0.81      0.79       126
+
+Epoch 34 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.86it/s, acc=1, loss=0.415]
+Epoch 34 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.7734375 	Loss: 0.6295311064459383
+Epoch 34 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.24it/s, acc=0.5, loss=1.18]
+	Loss: 0.5144556821323931
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.89      0.86      0.88        37
+       医疗x医保       0.80      0.95      0.87        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.78      0.33      0.47        21
+
+    accuracy                           0.80       126
+   macro avg       0.79      0.75      0.75       126
+weighted avg       0.80      0.80      0.78       126
+
+Epoch 35 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=0.5, loss=0.686]
+Epoch 35 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.765625 	Loss: 0.5695111723616719
+Epoch 35 valid: 100%|██████████████████████████| 32/32 [00:01<00:00, 17.18it/s, acc=0.5, loss=0.856]
+Epoch 36 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.7588654232677072
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.81      0.92      0.86        37
+       医疗x医保       0.96      0.52      0.68        42
+       医保x医药       0.56      0.92      0.70        26
+         三联动       0.17      0.14      0.15        21
+
+    accuracy                           0.66       126
+   macro avg       0.62      0.63      0.60       126
+weighted avg       0.70      0.66      0.65       126
+
+Epoch 36 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0.5, loss=0.873]
+	Train ACC: 0.7265625 	Loss: 0.6598554360680282
+Epoch 36 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.08it/s, acc=1, loss=0.698]
+Epoch 37 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.5381916924961843
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.86      0.97      0.91        37
+       医疗x医保       0.89      0.79      0.84        42
+       医保x医药       0.69      0.85      0.76        26
+         三联动       0.47      0.33      0.39        21
+
+    accuracy                           0.78       126
+   macro avg       0.73      0.73      0.72       126
+weighted avg       0.77      0.78      0.77       126
+
+Epoch 37 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=1, loss=0.507]
+	Train ACC: 0.78125 	Loss: 0.5817373716272414
+Epoch 37 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.15it/s, acc=0.5, loss=1.14]
+	Loss: 0.5595345963956788
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.78      0.88        37
+       医疗x医保       0.73      0.98      0.84        42
+       医保x医药       0.76      0.85      0.80        26
+         三联动       0.75      0.43      0.55        21
+
+    accuracy                           0.80       126
+   macro avg       0.81      0.76      0.77       126
+weighted avg       0.82      0.80      0.79       126
+
+Epoch 38 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.91it/s, acc=0.5, loss=0.468]
+	Train ACC: 0.8125 	Loss: 0.5077250606846064
+Epoch 38 valid: 100%|██████████████████████████| 32/32 [00:01<00:00, 17.20it/s, acc=0.5, loss=0.831]
+	Loss: 0.44266557157970965
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.90      0.97      0.94        37
+       医疗x医保       0.89      0.95      0.92        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.77      0.48      0.59        21
+
+    accuracy                           0.86       126
+   macro avg       0.84      0.81      0.81       126
+weighted avg       0.85      0.86      0.85       126
+
+Epoch 39 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.146]
+Epoch 39 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.7890625 	Loss: 0.5316287220921367
+Epoch 39 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.24it/s, acc=1, loss=0.77]
+	Loss: 0.5778498993022367
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.77      1.00      0.87        37
+       医疗x医保       0.90      0.67      0.77        42
+       医保x医药       0.64      0.88      0.74        26
+         三联动       0.36      0.19      0.25        21
+
+    accuracy                           0.73       126
+   macro avg       0.67      0.69      0.66       126
+weighted avg       0.72      0.73      0.71       126
+
+Epoch 40 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.251]
+	Train ACC: 0.796875 	Loss: 0.5300730057060719
+Epoch 40 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.24it/s, acc=0.5, loss=1.38]
+Epoch 41 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.4792586642142851
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.97      0.89      0.93        37
+       医疗x医保       0.75      1.00      0.86        42
+       医保x医药       0.78      0.81      0.79        26
+         三联动       0.78      0.33      0.47        21
+
+    accuracy                           0.82       126
+   macro avg       0.82      0.76      0.76       126
+weighted avg       0.83      0.82      0.80       126
+
+Epoch 41 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.87it/s, acc=0.5, loss=0.919]
+Epoch 41 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.7890625 	Loss: 0.5273606879636645
+Epoch 41 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.10it/s, acc=0.5, loss=2.1]
+	Loss: 0.7814977822126821
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.58      1.00      0.73        37
+       医疗x医保       0.89      0.60      0.71        42
+       医保x医药       0.76      0.85      0.80        26
+         三联动       0.80      0.19      0.31        21
+
+    accuracy                           0.70       126
+   macro avg       0.76      0.66      0.64       126
+weighted avg       0.76      0.70      0.67       126
+
+Epoch 42 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.85it/s, acc=0.5, loss=1.36]
+Epoch 42 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.734375 	Loss: 0.6820287485606968
+Epoch 42 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.19it/s, acc=0.5, loss=1.6]
+Epoch 43 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.9149179658852518
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.30      0.46        37
+       医疗x医保       0.54      1.00      0.70        42
+       医保x医药       0.79      0.73      0.76        26
+         三联动       0.62      0.38      0.47        21
+
+    accuracy                           0.63       126
+   macro avg       0.74      0.60      0.60       126
+weighted avg       0.74      0.63      0.60       126
+
+Epoch 43 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.85it/s, acc=1, loss=0.395]
+	Train ACC: 0.7578125 	Loss: 0.6028221196029335
+Epoch 43 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 16.99it/s, acc=0.5, loss=1.27]
+	Loss: 0.46171631111064926
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.90      0.97      0.94        37
+       医疗x医保       0.89      0.98      0.93        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.83      0.48      0.61        21
+
+    accuracy                           0.87       126
+   macro avg       0.85      0.82      0.82       126
+weighted avg       0.86      0.87      0.85       126
+
+Epoch 44 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.87it/s, acc=0.5, loss=0.772]
+Epoch 44 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.8125 	Loss: 0.4654479371383786
+Epoch 44 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.20it/s, acc=1, loss=0.633]
+Epoch 45 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.42270215251483023
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.88      0.97      0.92        37
+       医疗x医保       0.91      0.93      0.92        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.73      0.38      0.50        21
+
+    accuracy                           0.83       126
+   macro avg       0.81      0.78      0.78       126
+weighted avg       0.83      0.83      0.82       126
+
+Epoch 45 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.86it/s, acc=1, loss=0.0669]
+	Train ACC: 0.828125 	Loss: 0.4640410889405757
+Epoch 45 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.07it/s, acc=1, loss=0.53]
+Epoch 46 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.3786980832228437
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.92      0.97      0.95        37
+       医疗x医保       0.91      0.95      0.93        42
+       医保x医药       0.71      0.85      0.77        26
+         三联动       0.67      0.38      0.48        21
+
+    accuracy                           0.84       126
+   macro avg       0.80      0.79      0.78       126
+weighted avg       0.83      0.84      0.83       126
+
+Epoch 46 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.86it/s, acc=1, loss=0.164]
+Epoch 46 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.828125 	Loss: 0.44979238335508853
+Epoch 46 valid: 100%|██████████████████████████| 32/32 [00:01<00:00, 17.06it/s, acc=0.5, loss=0.694]
+	Loss: 0.4335098361771088
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.84      0.91        37
+       医疗x医保       0.80      0.98      0.88        42
+       医保x医药       0.78      0.81      0.79        26
+         三联动       0.59      0.48      0.53        21
+
+    accuracy                           0.82       126
+   macro avg       0.79      0.77      0.78       126
+weighted avg       0.82      0.82      0.81       126
+
+Epoch 47 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.84it/s, acc=1, loss=0.0921]
+	Train ACC: 0.78125 	Loss: 0.5453356420621276
+Epoch 47 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 16.98it/s, acc=0, loss=1.96]
+	Loss: 0.509983814205043
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.95      0.97      0.96        37
+       医疗x医保       0.78      1.00      0.88        42
+       医保x医药       0.78      0.81      0.79        26
+         三联动       0.71      0.24      0.36        21
+
+    accuracy                           0.83       126
+   macro avg       0.80      0.75      0.75       126
+weighted avg       0.82      0.83      0.80       126
+
+Epoch 48 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0.5, loss=1.51]
+Epoch 48 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.8203125 	Loss: 0.4761823763838038
+Epoch 48 valid: 100%|██████████████████████████| 32/32 [00:01<00:00, 17.18it/s, acc=0.5, loss=0.958]
+Epoch 49 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.3915766409772914
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.90      0.97      0.94        37
+       医疗x医保       0.89      0.98      0.93        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.83      0.48      0.61        21
+
+    accuracy                           0.87       126
+   macro avg       0.85      0.82      0.82       126
+weighted avg       0.86      0.87      0.85       126
+
+Epoch 49 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.88it/s, acc=0.5, loss=0.665]
+Epoch 49 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.828125 	Loss: 0.4204705328447744
+Epoch 49 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.20it/s, acc=1, loss=0.409]
+Epoch 50 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.380663625895977
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.95      0.97        37
+       医疗x医保       0.89      0.98      0.93        42
+       医保x医药       0.72      0.88      0.79        26
+         三联动       0.69      0.43      0.53        21
+
+    accuracy                           0.86       126
+   macro avg       0.83      0.81      0.81       126
+weighted avg       0.85      0.86      0.85       126
+
+Epoch 50 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.0594]
+Epoch 50 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.859375 	Loss: 0.4340477059595287
+Epoch 50 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.15it/s, acc=1, loss=0.349]
+Epoch 51 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.3582613667822443
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.88      0.97      0.92        37
+       医疗x医保       0.90      0.90      0.90        42
+       医保x医药       0.76      0.85      0.80        26
+         三联动       0.71      0.48      0.57        21
+
+    accuracy                           0.84       126
+   macro avg       0.81      0.80      0.80       126
+weighted avg       0.84      0.84      0.83       126
+
+Epoch 51 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.282]
+	Train ACC: 0.8046875 	Loss: 0.4642228961456567
+Epoch 51 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.18it/s, acc=0.5, loss=1.14]
+Epoch 52 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.40064986966899596
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.97      0.95      0.96        37
+       医疗x医保       0.84      1.00      0.91        42
+       医保x医药       0.78      0.81      0.79        26
+         三联动       0.69      0.43      0.53        21
+
+    accuracy                           0.85       126
+   macro avg       0.82      0.80      0.80       126
+weighted avg       0.84      0.85      0.84       126
+
+Epoch 52 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.91it/s, acc=1, loss=0.18]
+	Train ACC: 0.8359375 	Loss: 0.3947773401159793
+Epoch 52 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.20it/s, acc=1, loss=0.454]
+	Loss: 0.311718410695903
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.97      0.97      0.97        37
+       医疗x医保       0.89      0.98      0.93        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.73      0.52      0.61        21
+
+    accuracy                           0.87       126
+   macro avg       0.85      0.83      0.83       126
+weighted avg       0.87      0.87      0.87       126
+
+Epoch 53 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=1, loss=0.325]
+	Train ACC: 0.8359375 	Loss: 0.3859179150604177
+Epoch 53 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.19it/s, acc=1, loss=0.309]
+Epoch 54 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.3379169754625764
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.95      0.97        37
+       医疗x医保       0.89      0.98      0.93        42
+       医保x医药       0.76      0.85      0.80        26
+         三联动       0.69      0.52      0.59        21
+
+    accuracy                           0.87       126
+   macro avg       0.83      0.82      0.82       126
+weighted avg       0.86      0.87      0.86       126
+
+Epoch 54 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.124]
+Epoch 54 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.8515625 	Loss: 0.39060812577372417
+Epoch 54 valid: 100%|█████████████████████████████| 32/32 [00:01<00:00, 17.22it/s, acc=0, loss=1.68]
+	Loss: 0.4517301651794696
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.90      1.00      0.95        37
+       医疗x医保       0.85      0.98      0.91        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.78      0.33      0.47        21
+
+    accuracy                           0.85       126
+   macro avg       0.83      0.79      0.79       126
+weighted avg       0.84      0.85      0.83       126
+
+Epoch 55 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.216]
+Epoch 55 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.8671875 	Loss: 0.3694647173397243
+Epoch 55 valid: 100%|███████████████████████████| 32/32 [00:01<00:00, 17.22it/s, acc=0.5, loss=1.18]
+	Loss: 0.37191235582577065
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.95      0.97      0.96        37
+       医疗x医保       0.86      1.00      0.92        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.82      0.43      0.56        21
+
+    accuracy                           0.87       126
+   macro avg       0.85      0.81      0.82       126
+weighted avg       0.86      0.87      0.85       126
+
+Epoch 56 train: 100%|████████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.314]
+	Train ACC: 0.796875 	Loss: 0.4335614612791687
+Epoch 56 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.19it/s, acc=1, loss=0.331]
+	Loss: 0.2908788295899285
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.95      0.97      0.96        37
+       医疗x医保       0.91      0.98      0.94        42
+       医保x医药       0.84      0.81      0.82        26
+         三联动       0.72      0.62      0.67        21
+
+    accuracy                           0.88       126
+   macro avg       0.86      0.84      0.85       126
+weighted avg       0.88      0.88      0.88       126
+
+Epoch 57 train: 100%|██████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=0.5, loss=0.795]
+Epoch 57 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.859375 	Loss: 0.3313965887646191
+Epoch 57 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 16.90it/s, acc=1, loss=0.508]
+Epoch 58 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.2968215210712515
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.93      1.00      0.96        37
+       医疗x医保       0.93      0.98      0.95        42
+       医保x医药       0.79      0.85      0.81        26
+         三联动       0.79      0.52      0.63        21
+
+    accuracy                           0.88       126
+   macro avg       0.86      0.84      0.84       126
+weighted avg       0.88      0.88      0.87       126
+
+Epoch 58 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.91it/s, acc=1, loss=0.0275]
+Epoch 58 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.859375 	Loss: 0.36572341225109994
+Epoch 58 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.22it/s, acc=1, loss=0.403]
+Epoch 59 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.37757139539462514
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.89      0.94        37
+       医疗x医保       0.85      0.98      0.91        42
+       医保x医药       0.81      0.85      0.83        26
+         三联动       0.67      0.57      0.62        21
+
+    accuracy                           0.86       126
+   macro avg       0.83      0.82      0.82       126
+weighted avg       0.86      0.86      0.85       126
+
+Epoch 59 train: 100%|███████████████████████████| 32/32 [00:06<00:00,  4.90it/s, acc=1, loss=0.0263]
+Epoch 59 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.859375 	Loss: 0.3849620613036677
+Epoch 59 valid: 100%|██████████████████████████| 32/32 [00:01<00:00, 17.25it/s, acc=0.5, loss=0.733]
+Epoch 60 train:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Loss: 0.4701320708845742
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       0.88      1.00      0.94        37
+       医疗x医保       1.00      0.76      0.86        42
+       医保x医药       0.62      1.00      0.76        26
+         三联动       0.40      0.19      0.26        21
+
+    accuracy                           0.79       126
+   macro avg       0.72      0.74      0.71       126
+weighted avg       0.79      0.79      0.76       126
+
+Epoch 60 train: 100%|█████████████████████████████| 32/32 [00:06<00:00,  4.89it/s, acc=1, loss=0.32]
+Epoch 60 valid:   0%|                                                        | 0/32 [00:00<?, ?it/s]	Train ACC: 0.8984375 	Loss: 0.29459716397104785
+Epoch 60 valid: 100%|████████████████████████████| 32/32 [00:01<00:00, 17.16it/s, acc=1, loss=0.246]
+	Loss: 0.2437790338153718
+* Classification Report:
+              precision    recall  f1-score   support
+
+          医保       1.00      0.97      0.99        37
+       医疗x医保       0.91      0.98      0.94        42
+       医保x医药       0.81      0.96      0.88        26
+         三联动       0.86      0.57      0.69        21
+
+    accuracy                           0.90       126
+   macro avg       0.89      0.87      0.87       126
+weighted avg       0.91      0.90      0.90       126
+
+Done
+
+进程已结束，退出代码为 0
