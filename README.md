@@ -54,7 +54,9 @@
 
 先到我的onedrive或网盘下载模型文件和数据文件(onedrive需要科学上网，但是不限速)  
 模型文件也可以去huggingface下载，搜索'bert-base-chinese'即可  
-<onedrive上传中，宿舍网速太慢了>  
+onedrive
+models:https://1drv.ms/u/c/5feadf21a615ba59/Ec4N_7B2AkpNqXAwg1VSJY8BNONRDfgqHOM6rqdf86rrlQ?e=ItcFBT  
+data:https://1drv.ms/u/c/5feadf21a615ba59/Efb_MQP9iwVDtnJMXrcHawsB129RWFmYVgIXkV5Lsa1j7g?e=xMGvnR
 链接：https://pan.baidu.com/s/1oDWnF4zPo6NU_w9VvFgm3A?pwd=6p1c 
 提取码：6p1c
 
