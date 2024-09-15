@@ -5,32 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5b6b66-6d14-4882-b06b-06a1e49f7793" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Data-Classification.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.val.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/data/cnews/cnews.vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/pytorch_model.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/bert-base-chinese/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/models/best_model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ref/Classification/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/med/med.train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/med/med.val.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/med/med.vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/gpu_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +108,7 @@
       <workItem from="1726320915011" duration="3292000" />
       <workItem from="1726326888423" duration="2805000" />
       <workItem from="1726330453724" duration="12686000" />
-      <workItem from="1726371849023" duration="7944000" />
+      <workItem from="1726371849023" duration="12450000" />
     </task>
     <servers />
   </component>

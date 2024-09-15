@@ -19,7 +19,7 @@ data_select = 'med'
 data_path = r'./data/' + data_select + '/'
 batch_size = 4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-epochs = 3
+epochs = 60
 learning_rate = 4e-6  # Learning Rate不宜太大
 
 def train():
@@ -56,6 +56,7 @@ def train():
         model.train()
         train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         train_bar = tqdm(train_dataloader, ncols=100)
+        # 获取输出
         for input_ids, token_type_ids, attention_mask, label_id in train_bar:
             # 梯度清零
             model.zero_grad()
@@ -91,6 +92,7 @@ def train():
         pred_labels = []
         true_labels = []
         valid_bar = tqdm(valid_dataloader, ncols=100)
+        # 获取输出
         for input_ids, token_type_ids, attention_mask, label_id in valid_bar:
             valid_bar.set_description('Epoch %i valid' % epoch)
 
