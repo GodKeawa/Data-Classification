@@ -54,7 +54,9 @@
 
 先到我的onedrive或网盘下载模型文件和数据文件(onedrive需要科学上网，但是不限速)  
 模型文件也可以去huggingface下载，搜索'bert-base-chinese'即可  
-<上传中，宿舍网速太慢了>
+<onedrive上传中，宿舍网速太慢了>  
+链接：https://pan.baidu.com/s/1oDWnF4zPo6NU_w9VvFgm3A?pwd=6p1c 
+提取码：6p1c
 
 下载完成后将文件夹放在项目根目录就行
 本人已经训练好了两个模型可以拿来测试，一个是使用新闻标准数据库的，一个是本项目的  
